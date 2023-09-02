@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans+Linear+B&family=Roboto+Mono:ital,wght@1,100&display=swap');
+h1 {
+    color: orange;
+}
+.div-one, .div-two, .div-three {
+    background-color: rgb(255, 255, 0);
+    border: solid red 5px;
+    height: 300px;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+.parent {
+    background-color: purple;
+        height: 932px;
+        box-sizing: border-box;
+        width: 95%;
+        margin: 0px 0px 30px 0px;
+}
+.one {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.two {
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+.three {
+    font-family: 'Roboto Mono', monospace;
+}
+.red {
+    color: red;
+}
+.green {
+    color: rgb(0, 255, 0);
+}
